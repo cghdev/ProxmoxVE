@@ -59,11 +59,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <script
-          defer
-          src={`https://${analytics.url}/script.js`}
-          data-website-id={analytics.token}
-        ></script>
         <link rel="canonical" href={metadata.metadataBase.href} />
         <link rel="manifest" href="manifest.webmanifest" />
         <link rel="preconnect" href="https://api.github.com" />
